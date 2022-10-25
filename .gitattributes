@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.so filter=lfs diff=lfs merge=lfs -text
+*.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+1.model-5400.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+2.model-6200.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+2.model-7400.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+3.model-2800.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+7.model-1600.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+7.model-2300.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
